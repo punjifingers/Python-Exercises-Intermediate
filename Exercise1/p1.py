@@ -32,3 +32,11 @@ f.close()
 print("a",1, flush=True)
 print("b",2)
 
+
+#Formatted Strings(f-strings)
+name = "John"
+age = 25
+
+print(f"name: {name}, age: {age}")
+print("name: {}, age: {}".format(name, age))
+
