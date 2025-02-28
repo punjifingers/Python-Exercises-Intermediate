@@ -33,10 +33,32 @@ print("a",1, flush=True)
 print("b",2)
 
 
+######################################################
+
+
+
 #Formatted Strings(f-strings)
 name = "John"
 age = 25
 
 print(f"name: {name}, age: {age}")
 print("name: {}, age: {}".format(name, age))
+
+
+
+
+
+######################################################
+
+
+#open
+
+# f = open("D:/2025projects/p1.txt", "w")
+# print("a", 1, file=f)
+# print("b", 2, file=f)
+# f.close()
+
+
+with open("output.txt", "w") as f:
+    print("Hello, file!", file=f)  # Written to buffer first, not immediately saved to disk.
 
